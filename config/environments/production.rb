@@ -80,6 +80,7 @@ Rails.application.configure do
   # Note to set this to your actual host
   config.action_mailer.default_url_options = { :host => 'gis-oversea.com' }
   
+  
   # Sets paperclip to upload images to Amazon S3
   config.paperclip_defaults = {
     :storage => :s3,
